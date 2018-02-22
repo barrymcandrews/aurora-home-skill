@@ -9,7 +9,8 @@ import random
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-API_URL = 'http://71.60.35.26:5000/api/v2'
+# Change this to match your server's IP
+API_URL = 'http://0.0.0.0:5000/api/v2'
 
 endpoints = []
 state = {}
