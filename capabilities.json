@@ -1,0 +1,49 @@
+[
+  {
+    "type": "AlexaInterface",
+    "interface": "Alexa",
+    "version": "3"
+  },
+  {
+    "type": "AlexaInterface",
+    "interface": "Alexa.PowerController",
+    "version": "3",
+    "properties": {
+      "supported": [
+        {
+          "name": "powerState"
+        }
+      ],
+      "proactivelyReported": false,
+      "retrievable": true
+    }
+  },
+  {
+    "type": "AlexaInterface",
+    "interface": "Alexa.ColorController",
+    "version": "3",
+    "properties": {
+      "supported": [
+        {
+          "name": "color"
+        }
+      ],
+      "proactivelyReported": false,
+      "retrievable": true
+    }
+  },
+  {
+    "type": "AlexaInterface",
+    "interface": "Alexa.EndpointHealth",
+    "version": "3",
+    "properties": {
+      "supported": [
+        {
+          "name": "connectivity"
+        }
+      ],
+      "proactivelyReported": false,
+      "retrievable": true
+    }
+  }
+]
